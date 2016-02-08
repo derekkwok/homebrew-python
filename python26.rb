@@ -6,10 +6,7 @@ class Python26 < Formula
   sha256 "7277b1285d8a82f374ef6ebaac85b003266f7939b3f2a24a3af52f9523ac94db"
 
   def install
-    system "./configure", "--disable-debug",
-                          "--disable-dependency-tracking",
-                          "--disable-silent-rules",
-                          "--prefix=#{prefix}"
+    system "./configure", "--prefix=#{prefix}"
     system "make"
     system "make install"
   end

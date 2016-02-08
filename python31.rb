@@ -6,11 +6,9 @@ class Python31 < Formula
   sha256 "d12dae6d06f52ef6bf1271db4d5b4d14b5dd39813e324314e72b648ef1bc0103"
 
   def install
-    system "./configure", "--disable-debug",
-                          "--disable-dependency-tracking",
-                          "--disable-silent-rules",
-                          "--prefix=#{prefix}"
-    system "make", "install"
+    system "./configure", "--prefix=#{prefix}"
+    system "make"
+    system "make install"
   end
 
   def post_install

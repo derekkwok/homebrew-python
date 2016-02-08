@@ -15,7 +15,7 @@ How to Use
     $ brew tap derekkwok/python
     $ brew install python<xy>
 
-where <xy> is the python version. For example, to install python 3.4
+where `<xy>` is the python version. For example, to install python 3.4
 
     $ brew install python34
 
