@@ -9,6 +9,14 @@ This is a brew tap for installing older versions of Python. Currently this tap h
 * `python33`
 * `python34`
 
+Prerequisites
+-------------
+
+The formula `openssl` will need to be installed and linked
+
+    $ brew install openssl
+    $ brew link --force openssl
+
 How to Use
 ----------
 
