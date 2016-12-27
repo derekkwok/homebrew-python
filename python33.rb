@@ -6,7 +6,9 @@ class Python33 < Formula
   sha256 "0a58ad1f1def4ecc90b18b0c410a3a0e1a48cf7692c75d1f83d0af080e5d2034"
 
   def install
-    system "./configure", "--prefix=#{prefix}"
+    cflags = "CFLAGS=-I/usr/local/opt/openssl/include"
+    ldflags = "LDFLAGS=-L/usr/local/opt/openssl/lib"
+    system "./configure", "--prefix=#{prefix}", cflags, ldflags
     system "make"
     system "make install"
   end

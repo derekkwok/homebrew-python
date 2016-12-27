@@ -12,10 +12,9 @@ This is a brew tap for installing older versions of Python. Currently this tap h
 Prerequisites
 -------------
 
-The formula `openssl` will need to be installed and linked
+The formula `openssl` will need to be installed for the `ssl` module to work
 
     $ brew install openssl
-    $ brew link --force openssl
 
 How to Use
 ----------
