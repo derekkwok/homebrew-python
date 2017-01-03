@@ -3,7 +3,7 @@ class Python35 < Formula
   homepage "https://www.python.org/"
   url "https://www.python.org/ftp/python/3.5.2/Python-3.5.2.tgz"
   version "3.5.2"
-  sha256 "3fe8434643a78630c61c6464fe2e7e72"
+  sha256 "1524b840e42cf3b909e8f8df67c1724012c7dc7f9d076d4feef2d3eff031e8a0"
 
   def install
     cflags = "CFLAGS=-I/usr/local/opt/openssl/include"
