@@ -8,6 +8,7 @@ This is a brew tap for installing older versions of Python. Currently this tap h
 * `python32`
 * `python33`
 * `python34`
+* `python35`
 
 Prerequisites
 -------------
