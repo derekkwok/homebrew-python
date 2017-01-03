@@ -1,7 +1,7 @@
 class Python35 < Formula
   desc "Interpreted, interactive, object-oriented programming language"
   homepage "https://www.python.org/"
-  url "https://www.python.org/ftp/python/3.5.2/Python-3.5.2.tg"
+  url "https://www.python.org/ftp/python/3.5.2/Python-3.5.2.tgz"
   version "3.5.2"
   sha256 "3fe8434643a78630c61c6464fe2e7e72"
 
